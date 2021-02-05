@@ -1,0 +1,64 @@
+.content {
+  padding: 4em 0;
+  margin: 0 35%;
+}
+
+.grid {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.grid * {
+  align-self: center;
+  width: 100%;
+}
+
+.grid button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4f4f4f;
+  border: unset;
+  background-color: rgb(21, 184, 199);
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  margin: 1rem 0;
+  cursor: pointer;
+}
+
+.grid button:hover {
+  opacity: 0.7;
+}
+
+.field {
+  padding: 0.5rem 0;
+}
+
+.field p {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4f4f4f;
+  margin: 0.5rem 0;
+}
+
+.field input {
+  font-size: 16px;
+  line-height: 22px;
+  color: #828282;
+  background: #eee;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5rem 0;
+  text-indent: 1rem;
+}
+
+.field input::placeholder {
+  color: #828282;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 0 1rem;
+  }
+}

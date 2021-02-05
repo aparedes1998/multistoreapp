@@ -1,0 +1,16 @@
+{
+  "extends": ["@ucudal/eslint-config", "plugin:prettier/recommended"],
+  "plugins": ["jest"],
+  "rules": {
+    "jest/no-disabled-tests": "warn",
+    "jest/no-focused-tests": "error",
+    "jest/no-identical-title": "error",
+    "jest/prefer-to-have-length": "warn",
+    "jest/valid-expect": "error",
+    "no-param-reassign": 0
+  },
+  "env": {
+    "browser": true,
+    "jest/globals": true
+  }
+}

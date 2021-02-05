@@ -1,0 +1,49 @@
+.content {
+  margin: 4em 0;
+  padding: 0 25%;
+}
+
+.subheader {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.subheader input {
+  font-size: 16px;
+  line-height: 22px;
+  border: 1px solid #828282;
+  background: #eee;
+  border-radius: 5px;
+  width: 100%;
+  padding: 0.7em 1em;
+}
+
+.products {
+  margin: 2em 0;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 1em;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 5px #dedede;
+  padding: 0.5em 1em;
+  margin: 0.5em 0;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.item > * {
+  align-self: center;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    padding: 0 1em;
+  }
+}
